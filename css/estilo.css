@@ -56,3 +56,57 @@ p {
     height: 150px;
     background: cyan;
 }
+
+a.botao1 {
+    background: purple;
+    color: white;
+    padding: 5px;
+    text-decoration: none;
+    border-radius: 17px;
+    border: 1.1px solid white;
+}
+
+a.botao1:hover {
+    background: rgb(242, 119, 242);
+    padding: 2px;
+    border: 2px solid rgb(90, 5, 5);
+}
+
+a.botao2 {
+    text-decoration: none;
+    padding: 10px;
+    border: 5px double blue;
+    color: blue;
+}
+
+a.botao2:hover {
+    padding: 16px;
+    text-decoration: underline;
+    background: black;
+}
+
+a.botao3 {
+    color: black;
+    text-decoration: none;
+}
+
+a.botao3:hover {
+    color: red;
+    border-bottom: 1.4px solid blueviolet;
+}
+
+a.botao4 {
+    text-decoration: none;
+    color: pink;
+    font-size: 16px;
+}
+
+a.botao4:hover {
+    font-size: 20px;
+    font-weight: bold;
+    background: rgb(76, 70, 13);
+}
+
+a.botao5 {
+    cursor: text;
+}

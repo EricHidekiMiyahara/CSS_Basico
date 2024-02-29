@@ -1,35 +1,7 @@
-.borda {
-    border: 2px solid blue;
+.ex1 {
+    max-width: 800px;
 }
 
-#p1 {
-    display: block;
-}
-
-#p1:hover {
-    display: none;
-}
-
-li {
-    display: inline-block;
-    width: 30%;
-    height: 100px;
-}
-
-.azul {
-    background: blue;
-}
-
-.roxa {
-    background: purple;
-}
-
-.verde {
-    background: green;
-}
-
-div {
-    display: inline-block;
-    width: 20%;
-    height: 140px;
+.ex2 {
+    max-width: 600px;
 }

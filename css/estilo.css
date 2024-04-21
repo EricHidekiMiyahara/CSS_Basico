@@ -1,11 +1,39 @@
-.exemplo {
-    background: rgb(110, 110, 255);
-    color: rgb(0, 0, 0);
-    height: 100px;
+.container {
+    border: 1px solid black;
     overflow: auto;
-    width: 20000px;
 }
 
-body {
-    overflow-x: hidden;
+.container img {
+    float: left;
+    margin-right: 10px;
+    margin-bottom: 10px;
+}
+
+ul {
+    background: black;
+    padding: 20px;
+}
+
+li {
+    display: inline-block;
+}
+
+li a {
+    color: white;
+    text-decoration: none;
+    padding: 20px;
+}
+
+li a:hover {
+    background: #ccc;
+    color: white;
+}
+
+.login {
+    float: right;
+}
+
+.login a:hover {
+    background: orangered;
+    color: white;
 }

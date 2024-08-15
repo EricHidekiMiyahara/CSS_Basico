@@ -1,11 +1,30 @@
-const carro = {
-    marca: "ford", 
-    modelo: "ka", 
-    ano:2001, placa:"ABC-1234",
-    buzina: function() {alert('biiiii')},
-    completo: function(){
-        return "A marca é " + this.marca + ", o modelo é " + this.modelo + ", o ano é " + this.ano + " e a placa é " + this.placa;
-    }
+function eventoClick(){
+    // alert('Acionou um evento de click');
+    document.body.style.backgroundColor = "yellow";
 }
 
-console.log(carro.completo());
+function onDblClick(){
+    alert('Evento de clique duplo');
+}
+
+function viraVermelho(){
+    let div = document.getElementById("teste");
+    div.style.backgroundColor = "red";
+}
+
+function viraAzul(){
+    let div = document.getElementById("teste");
+    div.style.backgroundColor = "blue";
+}
+
+function limpaTexto(){
+    document.getElementById("campoTexto").value = "";
+}
+
+function mudou() {
+    console.log('Mudou');
+}
+
+function teclaPressionada(){
+    console.log('Tecla pressionada');
+}

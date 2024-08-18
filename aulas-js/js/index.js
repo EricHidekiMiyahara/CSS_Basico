@@ -1,30 +1,9 @@
-function eventoClick(){
-    // alert('Acionou um evento de click');
-    document.body.style.backgroundColor = "yellow";
-}
+var  item1 = "arroz";
+var item2 = "feijão";
+var item3 = "macarrão";
+var item4 = "leite";
 
-function onDblClick(){
-    alert('Evento de clique duplo');
-}
+const pessoa = ["Eric", "Miyahara", 21, "estudante"]; //array
+const x = "Eric";
 
-function viraVermelho(){
-    let div = document.getElementById("teste");
-    div.style.backgroundColor = "red";
-}
-
-function viraAzul(){
-    let div = document.getElementById("teste");
-    div.style.backgroundColor = "blue";
-}
-
-function limpaTexto(){
-    document.getElementById("campoTexto").value = "";
-}
-
-function mudou() {
-    console.log('Mudou');
-}
-
-function teclaPressionada(){
-    console.log('Tecla pressionada');
-}
+alert(Array.isArray(x));
